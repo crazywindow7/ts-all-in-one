@@ -21,7 +21,7 @@
 - 단순 타입 검사만 하고싶다면 tsc --noEmit 하면 된다.
 - 개인 의견: tsconfig.json에서 그냥 esModuleInterop: true, strict: true 두 개만 주로 켜놓는 편. strict: true가 핵심임.
 - ts 파일을 실행하는 게 아니라 결과물인 js를 실행
-- 에디터 필수인 이유: 타입 검사를 실시간으 해줌 🇰🇵
+- 에디터 필수인 이유: 타입 검사를 실시간으로 해줌 🇰🇵
 
 ## tsc의 두가지 역할
 - 단순 타입 검사 (tsc --noEmit)
