@@ -215,6 +215,7 @@ declare class A {}
 ![image](https://user-images.githubusercontent.com/10962668/179646513-3c3be896-3bbc-4784-848b-06bc47e8b129.png)
 
 - 타입 가드
+- unknown 일때 빼고는 as 사용 자제
 ```typescript
 function numOrStr(a: number | string) {
   if (typeof a === 'string') {
